@@ -5,14 +5,14 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f2e0;
-    color: #4c3c32;
+    font-family: 'Futura', sans-serif;
+    background-color: #f3e9dc;
+    color: #3e2a1c;
 }
 
 header {
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #d2b48c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     padding: 20px;
 }
 
@@ -23,7 +23,7 @@ nav {
 }
 
 .logo img {
-    max-width: 100px;
+    max-width: 120px;
 }
 
 nav ul {
@@ -34,44 +34,50 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #3e2a1c;
     font-weight: bold;
     transition: color 0.3s;
+    font-size: 16px;
 }
 
 nav a:hover {
-    color: #7e685b;
+    color: #7b5741;
 }
 
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background-image: url('coffee-shop-bg.jpg');
     background-size: cover;
-    color: white;
+    background-position: center;
+    color: #f3e9dc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 40px;
 }
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #4c3c32;
-    color: white;
+    padding: 12px 25px;
+    background-color: #3e2a1c;
+    color: #f3e9dc;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #7e685b;
+    background-color: #7b5741;
 }
 
 .menu {
@@ -80,36 +86,48 @@ nav a:hover {
 }
 
 .menu h2 {
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 20px;
+    color: #3e2a1c;
+}
+
+.menu h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #7b5741;
+    margin: 10px auto;
 }
 
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #ede4d6;
+    background-color: #f7f1e5;
 }
 
 .about h2 {
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 20px;
+    color: #3e2a1c;
 }
 
 .about p {
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
+    color: #5a4636;
 }
 
 .contact {
     padding: 100px 0;
     text-align: center;
-    background-color: #4c3c32;
-    color: white;
+    background-color: #3e2a1c;
+    color: #f3e9dc;
 }
 
 .contact h2 {
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
@@ -119,8 +137,9 @@ nav a:hover {
 }
 
 footer {
-    background-color: #4c3c32;
-    color: white;
+    background-color: #3e2a1c;
+    color: #f3e9dc;
     text-align: center;
     padding: 20px 0;
+    font-size: 14px;
 }
